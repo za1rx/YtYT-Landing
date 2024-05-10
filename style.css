@@ -1,0 +1,1368 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    text-align: center;
+    font-size: 46px;
+    font-weight: 600;
+}
+
+header li a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #22253B;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 18px;
+    
+    transition: all 0.3s ease;
+}
+
+header li a:hover {
+    background-color: #38BFF2;
+    color: #FFF;
+}
+
+.nav-menu, .nav-menu ul, .header__button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header, .school, .tehnology {
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.header__button .header__btn-reg{
+    text-decoration: none;
+    color: #22253B;
+    font-size: 18px;
+}
+
+.header__button-sign {
+    background-color: #38BFF2;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.header__button-sign img {
+    height: 15px;
+}
+
+.header__button-sign a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.burger-menu {
+    display: none;
+}
+
+/*----------------------------------------*/
+
+
+.school {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.school-info {
+    width: 60%;
+}
+
+.school-info p {
+    font-size: 18px;
+}
+
+.school-button {
+    display: flex;
+    align-items: center;
+}
+
+.school-button img {
+    height: 28px;
+}
+
+.school-image img {
+    height: 500px;
+}
+
+.color-bracket {
+    color: #F15525;
+}
+
+.school-info h1 {
+    font-weight: 500;
+    font-size: 54px;
+}
+
+.school-info h1 .color-text {
+    font-weight: bold;
+}
+
+.school-button a {
+    background-color: #F15525;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 25px 40px;
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 50px;
+}
+
+/*---------------------------------*/
+
+.tehnology-content {
+    display: flex;
+    align-items: center;    
+    justify-content: space-around;
+}
+
+.tehnology-content {
+    background-color: #EAF2F5;
+    padding-top: 40px;
+    border-radius: 50px;
+}
+
+.tehnology-top, .tehnology-mid, .tehnology-down {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.tehnology-items li {
+    color: #FFF;
+    border-radius: 20px;
+    padding: 14px 20px;
+    font-size: 20px;
+}
+
+.tehnology-items .tehnology-top li:nth-child(1) {
+    background-color: #5096FF;
+    margin-right: 10px;
+}
+
+.tehnology-items .tehnology-top li:nth-child(2) {
+    background-color: #FFB359;
+}
+
+.tehnology-items .tehnology-mid li:nth-child(1) {
+    background-color: #FF6F50;
+    margin-right: 10px;
+}
+
+.tehnology-items .tehnology-mid li:nth-child(2) {
+    background-color: #4BD071;
+}
+
+.tehnology-items .tehnology-down li:nth-child(1) {
+    background-color: #50C0FF;
+    margin-right: 10px;
+}
+
+.tehnology-items .tehnology-down li:nth-child(2) {
+    background-color: #4B77B9;
+    margin-right: 10px;
+}
+
+.tehnology-items .tehnology-down li:nth-child(3) {
+    background-color: #AF93FF;
+}
+
+.tehnology-items p {
+    color: #22253B;
+    font-weight: 600;
+    font-size: 22px;
+    padding-left: 40px;
+}
+
+.tehnology-image img {
+    height: 500px;
+}
+
+/*--------------------------------*/
+
+.study h2 {
+    text-align: center;
+    font-size: 46px;
+    font-weight: 600;
+    margin-top: 85px;
+    margin-bottom: 35px;
+}
+
+.study-top {
+    display: flex;
+    justify-content: center;
+}
+
+.study-top ul {
+    width: 13%;
+    background-color: #EAF2F5;
+    margin-right: 1%;
+    padding-left: 0px;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.study-top ul:last-child {
+    margin-right: 0px;
+}
+
+.study-top, .study-down ul li {
+    text-align: center;
+}
+
+.study-top, .study-down ul li p {
+    font-size: 18px;
+}
+
+.study-top, .study-down ul li h3 {
+    font-size: 20px;
+}
+
+.study-down {
+    display: flex;
+    justify-content: center;
+}
+
+.study-down ul {
+    width: 13%;
+    background-color: #EAF2F5;
+    margin-right: 1%;
+    padding-left: 0px;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.study-down ul:last-child {
+    margin-right: 0px;
+}
+
+/*------------------------------*/
+
+.video-image {
+    position: relative;
+    z-index: 0;
+    text-align: center;
+}
+
+.video-image .video-img {
+    background-color: #eaf2f5; 
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.video-image p {
+    color: #FFf;
+    font-size: 20px;
+}
+
+.video-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    z-index: 1;
+}
+
+.video .sub-title {
+    display: flex; 
+    justify-content: center;
+}
+
+.video .sub-title p {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    width: 25%;
+}
+
+/*-------------------------------*/
+
+.steps {
+    margin-top: 85px;
+}
+
+.visually_hidden {
+    display: none;
+}
+
+.steps ul li:first-child {
+    color: #38BFF2;
+    font-size: 77px;
+    font-weight: 700;
+}
+
+.steps ul li:nth-child(2) {
+    font-size: 24px;
+    color: #000;
+} 
+
+.steps ul li:nth-child(3) {
+    font-size: 18px;
+    color: #22253B;
+}
+
+.steps-items {
+    display: flex;
+    justify-content: center;
+}
+
+.steps-items ul {
+    width: 15%;
+    margin-right: 125px;
+}
+
+.steps-items ul:last-child {
+    margin-right: 0px;
+}
+
+.steps-button {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.steps-button img {
+    height: 28px;
+}
+
+.steps-button a {
+    background-color: #F15525;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 25px 40px;
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 50px;
+}
+
+.steps-info p {
+    font-size: 18px;
+    color: #22253B;
+    font-weight: 600;
+    width: 15%;
+}
+
+.steps-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+/*------------------------------*/
+
+.help {
+    padding: 0 200px;
+}
+
+.help-image img {
+    background-color: #EAF2F5;
+    height: 300px;
+}
+
+.help-top .help-image {
+    margin-right: 5%;
+}
+
+.help-top {
+    margin-bottom: 30px;
+}
+
+.help-down .help-image {
+    margin-left: 5%;
+}
+
+.help-image img {
+    padding: 40px 65px;
+    border-radius: 40px;
+    width: 400px;
+}
+
+.help-top, .help-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.help-text {
+    display: inline-block;
+    background-color: #EAF2F5;
+    width: 50%;
+    padding: 50px 100px;
+    border-radius: 50px;
+}
+
+.help-text h3 {
+    font-size: 36px;
+}
+
+.help-text .help-one {
+    padding-right: 40%;
+    font-size: 18px;
+}
+
+.help-text .help-two {
+    padding-right: 30%;
+    font-size: 18px;
+}
+
+/*-------------------------------------*/
+
+.price {
+    margin-top: 80px;
+}
+
+.price-item_1, .price-item_3 {
+    width: 25%;
+}
+
+.price-item_2 {
+    width: 15%;
+}
+
+.price-item_2 p {
+    padding-right: 25%;
+}
+
+.price-item_1 p, .price-item_3 p {
+    padding-right: 30%;
+}
+
+.price-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-table {
+        overflow-x: auto;
+    }
+
+.price-items P {
+    font-size: 18px;
+    color: #22253B;
+    font-weight: 500;
+}
+
+.price-item_1, .price-item_2, .price-item_3 {
+    display: flex;
+    align-items: center;
+}
+
+.price-item_1 img, .price-item_2 img, .price-item_3 img {
+    height: 60px;
+    margin-right: 30px;
+}
+
+table tr td {
+    color: #22253B;
+    font-size: 22px;
+    font-weight: 500;
+    padding-right: 120px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.items-1 td {
+    color: #38BFF2;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.items-9 td {
+    color: #000;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.price-table {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+table {
+    background-color: #EAF2F5;
+    padding: 30px 50px;
+    border-radius: 50px;
+}
+
+.items-2 td {
+    background-color: #FFF;
+}
+
+.items-2 td:nth-child(1) {
+    border-radius: 10px 0 0 10px;
+}
+
+.items-2 td:nth-child(3) {
+    border-radius: 0 10px 10px 0;
+}
+
+.items-4 td {
+    background-color: #FFF;
+}
+
+.items-4 td:nth-child(1) {
+    border-radius: 10px 0 0 10px;
+    padding-left: 15px;
+}
+
+.items-4 td:nth-child(3) {
+    border-radius: 0 10px 10px 0;
+}
+
+.items-6 td {
+    background-color: #FFF;
+}
+
+.items-6 td:nth-child(1) {
+    border-radius: 10px 0 0 10px;
+    padding-left: 15px;
+}
+
+.items-6 td:nth-child(3) {
+    border-radius: 0 10px 10px 0;
+}
+
+.items-8 td {
+    background-color: #FFF;
+}
+
+.items-8 td:nth-child(1) {
+    border-radius: 10px 0 0 10px;
+    padding-left: 15px;
+}
+
+.items-8 td:nth-child(3) {
+    border-radius: 0 10px 10px 0;
+}
+
+.sub-table {
+    text-align: center;
+    font-size: 18px;
+    color: #8E8E8E;
+    margin-top: 25px;
+}
+
+/*--------------------------------------*/
+
+.info {
+    margin-top: 100px;
+}
+
+.info-button {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.info-button img {
+    height: 28px;
+}
+
+.info-button a {
+    background-color: #F15525;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 25px 40px;
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 50px;
+}
+
+.info-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-content p {
+    width: 700px;
+    margin-left: 27px;
+    margin-right: 27px;
+    font-size: 20px;
+}
+
+/*---------------------------------*/
+
+.footer-about__top p {
+    color: #8E8E8E;
+}
+
+.social-content__ball {
+    background-color: #22253B;
+    border-radius: 50%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.social-content__ball:last-child {
+    margin-right: 0px;
+}
+
+.social-content {
+    display: flex;
+    align-items: center;
+}
+
+/*-------------------------------------*/
+
+.footer-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+.footer-about {
+    width: 50%;
+}
+
+.footer-about__top {
+    display: flex;
+    align-items: center;
+}
+
+.footer-about__top p {
+    font-size: 18px;
+}
+
+.footer-about__top img {
+    margin-right: 18px;
+    height: 32px;
+}
+
+.footer-menu {
+    width: 20%;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #22253B;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer-menu li {
+    margin-bottom: 25px;    
+}
+
+.footer-menu li:last-child {
+    margin-bottom: 0px;
+}
+
+.footer-phone {
+    color: #38BFF2;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer-mail {
+    font-size: 18px;
+    font-weight: 500;
+    color: #22253B;
+    margin-bottom: 65px;
+}
+
+.footer-last-info {
+    font-size: 18px;
+    color: #8E8E8E;
+}
+
+.footer-down {
+    padding: 30px 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-down a {
+    text-decoration: none;
+    color: #8E8E8E;
+}
+
+.footer-down a:first-child {
+    width: 50%;
+}
+
+.footer-down a:nth-child(2) {
+    width: 20%;
+}
+
+.br {
+    display: none;
+}
+
+/*----------------------------------*/
+
+@media (max-width: 1850px) {
+    
+    .br {
+        display: block;
+    }
+    
+    .school-info h1 {
+        font-size: 50px;
+    }
+    
+    body .h2 {
+        font-size: 40px;
+    }
+    
+}
+
+/*--------------*/
+
+@media (max-width: 1580px) {
+    
+    .header,
+    .school,
+    .tehnology,
+    .help {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+    .price-items {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .price-items p {
+        padding-right: 0px;
+    }
+    
+    .price-item_1,
+    .price-item_2,
+    .price-item_3 {
+        width: 35%;
+    }
+    
+    .steps-info {
+        margin-bottom: 50px;
+    }
+    
+    .help-top {
+        flex-direction: column;
+    }
+    
+    .help-image {
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+    
+    .help-down {
+        flex-direction: column-reverse;
+    }
+    
+    .help-image {
+        margin-left: 0px;
+        margin-bottom: 40px;
+    }
+    
+}
+
+/*----------*/
+
+@media (max-width: 1400px) {
+    
+    .header,
+    .school,
+    .tehnology,
+    .help {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .study-top h3 {
+        font-size: 20px
+    }
+    
+    .study-top ul {
+        width: 15%;
+    }
+    
+    .study-top p {
+        font-size: 16px;
+    }
+    
+    body .h2 {
+        font-size: 28px;
+    }
+    
+    .steps-items ul {
+        width: 20%;
+        margin-right: 75px;
+    }
+    
+    .steps-items ul li:last-child {
+        font-size: 16px;
+    }
+    
+    .steps-items ul li:first-child {
+        font-size: 60px;
+    }
+    
+    .steps-items h3 {
+        font-size: 24px;
+    }
+    
+    .nav-menu a {
+        font-size: 16px;
+    }
+    
+    .school-info h1 {
+        font-size: 46px;
+    }
+    
+    .school-info p {
+        font-size: 16px;
+    }
+    
+    .tehnology-items ul li {
+        font-size: 16px;
+    }
+    
+    .tehnology-items p {
+        font-size: 18px;
+    }
+    
+    .study h3 {
+        font-size: 18px;
+    }
+    
+    .sub-title p {
+        font-size: 16px;
+    }
+    
+    .video-btn p {
+        font-size: 18px;
+    }
+    
+    .steps-items ul li:first-child {
+        font-size: 50px;
+    }
+    
+    .steps-items h3 {
+        font-size: 20px;
+    }
+    
+    .steps-button a {
+        font-size: 16px;
+    }
+    
+    .steps-info p {
+        font-size: 16px;
+    }
+    
+    .help-text p {
+        font-size: 16px;
+    }
+    
+    .price-items p {
+        font-size: 16px;
+    }
+    
+    tbody td {
+        font-size: 18px;
+    }
+    
+    .price-table .items-1 td {
+        font-size: 16px;
+    } 
+    
+    .price-table .items-9 td {
+        font-size: 28px;
+    }
+    
+    .price-table .sub-table {
+        font-size: 16px;
+    }
+    
+    .info-content img {
+        height: 75px;
+    }
+    
+    .info-content p {
+        font-size: 16px;
+    }
+    
+    .info-button a {
+        font-size: 16px;
+    }
+    
+    .info-button img {
+        height: 28px;
+    }
+    
+    .footer-about__top p {
+        font-size: 16px;
+    }
+    
+    .footer-menu nav ul li a {
+        font-size: 16px;
+    }
+    
+    .footer-phone, .footer-last-info {
+        font-size: 16px;
+    }
+    
+}
+
+/*--------------*/
+
+@media (max-width: 1240px) {
+    
+    .school {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .school-info {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .school-button {
+        justify-content: center;
+    }
+    
+    .nav-menu ul, .header__btn-reg {
+        display: none;
+    }
+    
+    .burger-menu {
+        display: block;
+    }
+    
+    .nav-menu .header-logo {
+        margin-right: 40px;
+    }
+    
+    .nav-menu {
+        justify-content: center;
+    }
+    
+    .header__button-sign {
+        margin-right: 40px;
+    }
+    
+    .tehnology-items li {
+        font-size: 16px;
+    }
+    
+    .tehnology-items p {
+        font-size: 18px;
+    }
+    
+    .tehnology-image {
+        display: none;
+    }
+    
+    .tehnology-items ul {
+        padding: 0px;
+    }
+    
+    .tehnology-items p {
+        padding: 0px;
+        text-align: center;
+    }
+    
+    .study-top, .study-down {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .study ul {
+        width: 400px;
+        margin-right: 0px;
+    }
+    
+    .steps-items ul {
+        padding: 0px;
+        margin-right: 0px;
+    }
+    
+    .steps-items {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .info-content {
+        flex-direction: column;
+    }
+    
+    .info-content img {
+        display: none;
+    }
+    
+    .info-content p {
+        margin-bottom: 30px;
+    }
+    
+    .footer-top {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .footer-about__top, .social-content {
+        justify-content: center;
+    }
+    
+    .footer-menu ul {
+        padding: 0px;
+        width: 200px;
+    }
+    
+}
+
+/*----------------*/
+
+@media (max-width: 1000px) {
+    
+    .help-image img {
+        margin-right: 0px;
+    }
+    
+    .video-img {
+        height: 200px;
+    }
+    
+    .info-content p {
+        width: 500px;
+    }
+    
+    .school-info h1 {
+        font-size: 28px;
+    }
+    
+}
+
+/*----------------------*/
+
+@media (max-width: 660px) {
+    
+    .video .sub-title p {
+        width: 40%;
+    }
+
+    .school-info h1 {
+        font-size: 20px;
+    }
+    
+    .school-info p {
+        font-size: 14px;
+        padding: 15px 20px;
+    }
+    
+    .school-button img {
+        height: 16px;
+    }
+    
+    .school-image img {
+        height: 300px;
+    }
+    
+    body .h2 {
+        font-size: 20px;
+    }
+    
+    .tehnology-items ul li {
+        font-size: 12px;
+    }
+    
+    .tehnology-items p {
+        font-size: 14px;
+    }
+    
+    .study img {
+        height: 40px;
+    }
+    
+    .study ul {
+        padding: 30px;
+        width: 200px;
+    }
+    
+    .study-top h3 {
+        font-size: 16px;
+    }
+    
+    .study-down ul li h3 {
+        font-size: 16px;
+    }
+    
+    .study-top p {
+        font-size: 14px;
+    }
+    
+    .study-down ul li p {
+        font-size: 14px;
+    }
+    
+    .video .sub-title p {
+        font-size: 16px;
+        width: 70%;
+    }
+    
+    .video-btn img {
+        height: 60px;
+    }
+    
+    .video-btn p {
+        font-size: 14px;
+    }
+    
+    .steps-items h3 {
+        font-size: 16px;
+    }
+    
+    .steps ul li:first-child {
+        font-size: 40px;
+    }
+    
+    .steps-items ul li:last-child {
+        font-size: 12px;
+    }
+    
+    .steps-info {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .steps-button a {
+        font-size: 14px;
+        padding: 15px 30px;
+    }
+    
+    .steps-button img {
+        height: 16px;
+    }
+    
+    .steps-info p {
+        width: 70%;
+        text-align: center;
+    }
+    
+    .help-top .help-image {
+        margin-right: 0px;
+    }
+    
+    .help-image img {
+        height: 200px;
+        width: 300px;
+    }
+    
+    .help-text {
+        padding: 30px 70px;
+        text-align: center;
+    }
+    
+    .help-text h3 {
+        font-size: 28px;
+    }
+    
+    .help-text .help-one {
+        font-size: 16px;
+    }
+    
+    .help-text .help-two {
+        font-size: 16px;
+    }
+    
+    .help-text .help-one {
+        padding-right: 0px;
+    }
+    
+    .help-text .help-two {
+        padding-right: 0px;
+    }
+    
+    .help-down .help-image {
+        margin-left: 0px;
+    }
+    
+    .price-item_1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .price h2 {
+        margin-bottom: 60px;
+    }
+    
+    .price-item_1 img {
+        margin: 0;
+    }
+    
+    .price-items p {
+        font-size: 12px;
+    }
+    
+    .price-item_1 img {
+        height: 50px;
+    }
+    
+    .price-item_2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .price-item_2 img {
+        margin: 0;
+    }
+    
+    .price-item_2 img {
+        height: 50px;
+    }
+    
+    .price-item_3 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .price-item_3 img {
+        margin: 0;
+    }
+    
+    .price-item_3 img {
+        height: 50px;
+    }
+    
+    .table-wrapper {
+        overflow: auto;
+    }
+    
+    .price-table {
+        min-width: 900px;
+    }
+    
+    .info-content p {
+        font-size: 14px;
+        text-align: center;
+        width: 300px;
+    }
+    
+    .help-image img {
+        height: 150px;
+        width: 200px;
+    }
+    
+    .video-image .video-img {
+        height: 150px;
+    }
+    
+    .video-btn img {
+        height: 40px;
+    }
+    
+    .video-btn p {
+        font-size: 10px;
+    }
+    
+    .school-info {
+        width: 100%;
+    }
+    
+    .school-button a {
+        font-size: 16px;
+    }
+    
+    .footer-about__top, .social-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer-about__top img {
+        height: 20px;
+        margin: 0;
+    }
+    
+    .footer-about__top p {
+        text-align: center;
+    }
+    
+    .social-content {
+        flex-direction: column;
+    }
+    
+    .social-content__ball {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    
+    .footer-menu {
+        width: auto;
+    }
+    
+    .footer-menu ul {
+        width: auto;
+    }
+    
+    .footer-menu ul li {
+        text-align: center;
+    }
+    
+    .footer-phone,
+    .footer-mail,
+    .footer-last-info {
+        text-align: center;
+    }
+    
+    .footer-down {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0px;
+    }
+    
+    .footer-down a:nth-child(1) {
+        text-align: center;
+        width: auto;
+    }
+    
+    .footer-down a:nth-child(2) {
+        text-align: center;
+        width: auto;
+    }
+    
+    .info-button {
+        margin: 0px;
+    }
+    
+    .steps-items ul {
+        width: 200px;
+    }
+    
+}
